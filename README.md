@@ -1,14 +1,5 @@
-# Project Title
-A concise project description that captures what the code does. When creating the repository, this is the only section that needs to be filled out. The other sections can be filled in when the project is finished.
-
-If this is a fork of an existing repository, specify this clearly and describe changes made to the repository, and which project it was forked for.
-
-Write the description for:
-- Yourself in a year, and other CeR team members who may need to pick up your work.
-- Researchers you helped.
-- People who may have read about this in researcher publications, who are interested in reusing this repository.
-
-Insert other information about research project, as necessary. For example, "It is a part of the 2025 Marsden project..."
+# NZ Nvidia Corrdiff model for weather forecasting
+This Repo is specifically trained for NZ to provide Temperature, Precipitation and Wind forecasts.
 
 ## Installation instructions
 
@@ -27,13 +18,18 @@ Insert other information about research project, as necessary. For example, "It 
 <!-- If this is a fork of another project, include link to the original repository. -->
 
 ## Built with
-<!-- List major frameworks and libraries used in this project. -->
+This work uses weather data provided by the European Centre for Medium-Range Weather Forecasts (ECMWF)  and leverages the CorrDiff implementation from the NVIDIA PhysicsNeMo repository.
 
+Data available at:
+https://www.ecmwf.int/
 
-## Publications
+Code adapted from the NVIDIA PhysicsNeMo CorrDiff example available at:
+https://github.com/NVIDIA/physicsnemo/tree/main/examples/generative/corrdiff
+
+GenAI tools such as (Gemini, GPT5.3-Codex) were used to assist in development of the GUI and data downloading scripts.
 
 ## Contact
 
-This project was created by  <!-- Add yourself along with other CeR staff or external collaborators involved in creating this project. Include your email address or a link to https://www.eresearch.auckland.ac.nz/getting-in-touch/. --> at the Centre for eResearch, University of Auckland.
+This project was created by Dr. Nidhi Gowdra at the Centre for eResearch, University of Auckland.
 
 Created for <!-- Add researcher(s) names--> at the Faculty of <!-- Add faculty/department name-->, University of Auckland. <!-- Add the researcher's contact details if they welcome correspondence. -->
